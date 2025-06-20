@@ -1,0 +1,93 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+
+.gallery img{
+    width: 400px;
+    height: auto;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery img:hover{
+    transform: scale(1.05);
+    border-color: cornflowerblue;
+    cursor: pointer;
+}
+
+h2{
+    font-family: Impact, fantasy;
+    text-align: center;
+    font-size: 30px;
+    color: violet;
+    font-style: oblique;
+}
+
+h4{
+    font-family: Impact, fantasy;
+    font-size: 20px;
+    font-style: italic;
+    color: cornflowerblue; 
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: cornflowerblue;
+    padding-top: 12px;
+}
+
+#menu a{
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 20px;
+}
+
+#menu a:hover{
+    color: #5077bd;
+    text-decoration: underline;
+}
+
+section{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#navigation{
+   text-align: center;
+   margin: 30px 0;
+   font-size: 1.2em;
+    
+}
+
+#navigation a{
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+#navigation a:hover{
+    color: violet;
+    text-decoration: none;
+}
+
